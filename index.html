@@ -13,36 +13,37 @@
   <div class="container my5 justify-content-center align-items-center d-flex">
     <h1 class="text-uppercase fs-1 fw-bold pt-2">calcola il prezzo del tuo biglietto</h1>
   </div>
-  <div class="container-sm mh-100 container-ticket">
-    <div class="top justify-content-center align-items-center d-flex">
+
+
+  <div class="container container-ticket">
+    <div class="container-top justify-content-center align-items-center d-flex">
       <div class="row justify-content-sm-between d-flex">
         <div class="col">
-          <div class="title p-3">Nome Cognome</div><input type="text">
+          <div class="title p-3">Nome Cognome</div><input type="text" name="nameSurname" id="nameSurname">
         </div>
         <div class="col">
-          <div class="title p-3">Km da percorre</div>  <input type="number" min="0">
+          <div class="title p-3">Km da percorre</div>  <input type="number" name="distance" min="0">
         </div>
         <div class="col">
             <div class="title p-3">Fascia d'età</div>
-            <select list="age-ranges" name="age-range" id="age-range" class="bg-transparent border border-secondary" >
-            <datalist id="age-ranges">
-              <option value="Minorenne"> Minorenne</option>
-              <option value="Maggiorenne">Maggiorenne</option>
-              <option value="Pensionato">Pensionato</option>
-            </datalist>
+            <!-- <select list="age-ranges" name="age-range" id="age-range" class="bg-transparent border border-secondary p-1" >  
+            -->
         </div>
       </div>
     </div>
-
-    <div class="bottom">
-      <div class="btn bg-success">Genera</div>
-      <div class="btn bg-danger">Annulla</div>
+    <div class="bottom-container justify-content-center align-items-center d-flex">
+      <div class="btn bg-success" type="submit" value="Submit">Genera</div>
+      <div class="btn bg-danger" >Annulla</div>
     </div>
-   
-
-   
+    
+    
   </div>
-
+  <!-- <datalist id="age-ranges">
+    <option value="Minorenne"> Minorenne</option>
+    <option value="Maggiorenne">Maggiorenne</option>
+    <option value="Pensionato">Pensionato</option>
+  </datalist> -->
+ 
   <script src="js/script.js"></script>
 </body>
 </html>

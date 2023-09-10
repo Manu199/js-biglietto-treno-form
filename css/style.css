@@ -6,4 +6,9 @@
 
 .container-ticket {
   height: 200px;
+  flex-direction: row;
+}
+
+#age-range {
+  border-radius: 2px;
 }

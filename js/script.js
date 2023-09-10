@@ -8,3 +8,6 @@ va applicato uno sconto del 40% per gli over 65.
 
 // const distance = parseInt(prompt('quanti km devi percorre?'));
 
+var inputValue = document.getElementById("nameSurname").value;
+
+console.log("Input Value: " + inputValue);
