@@ -1,0 +1,9 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ticket {
+  height: 200px;
+}
